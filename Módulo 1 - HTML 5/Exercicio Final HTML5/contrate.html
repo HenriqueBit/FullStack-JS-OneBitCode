@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpaceX - Contrate-nos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="Logo"></a>
+            <a href="naves.html">As espaçonaves</a>
+            <a href="contrate.html">Contrate-nos</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>Contrate-nos Agora!</h1>
+        <p>Deixe uma mensagem para requisitar um de nossos serviços</p><br>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" autofocus>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenomenome">
+            <br><br>    
+            <label for="nave">Nave:</label>
+            <select name="nave" name="nave">
+                <option value="falcon9">Falcon 9</option>
+                <option value="falconheavy">Falcon Heavy</option>
+            </select>
+            <label for="pesquisa">Tipo de serviço</label>
+            <input type="search" name="pesquisa" list="servicos">
+            <br><br><input type="submit" placeholder="Enviar">
+        </form>
+    </main>
+
+
+<datalist id="servicos">
+    <option value="Arremeço de lança perfume"></option>
+    <option value="Envio de Satelite"></option>
+    <option value="Cagar na calça"></option>
+</datalist>
+</body>
+</html>
